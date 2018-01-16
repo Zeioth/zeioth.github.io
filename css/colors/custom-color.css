@@ -9,7 +9,7 @@
 
 /* THE OVERLAY COLORS WHICH WILL SHOW IN FRONT OF BACKGROUND IMAGES*/
 .overlay-layer {
-	background: rgba(0, 5, 8, 0.75);
+	background: rgba(0, 5, 8, 0.3);
 }
 
 .overlay-layer-2 {
@@ -56,7 +56,7 @@ a:hover {
 
 .sticky-navigation .main-navigation li a:hover,
 .sticky-navigation .login-register li.login a:hover {
-	color: #008ed6;
+	color: rgba(255,255,255,.4);
 }
 
 .sticky-navigation .main-navigation li.current a {

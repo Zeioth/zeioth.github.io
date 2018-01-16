@@ -199,11 +199,11 @@ li {
 h1,
 h2 {
 	font-family: 'Cabin', Helvetica Neue, Sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 2.75rem;
 	line-height: 5rem;
 }
 
@@ -504,7 +504,8 @@ strong,
    3.1 SECTION: HOME / HEADER
 -----------------------------------------*/
 .header {
-	background: url(../images/background-images/1.jpg) no-repeat center top fixed;
+	padding-top: 72px;
+	background: url(../images/background-images/1.jpg) no-repeat center top 76px;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -587,12 +588,12 @@ strong,
 }
 
 .only-logo .navbar-header img {
-	max-width: 200px;
+	max-width: 158px;
 }
 
 /* INTRO */
 .intro-section {
-	margin-top: 70px;
+	margin-top: -20px;
 }
 
 .intro-section h5 {

@@ -15,7 +15,7 @@ $(window).load(function() {
 	/*---------------------------------------*/
     $('.main-navigation').onePageNav({
         changeHash: true,
-        currentClass: 'current', /* CHANGE THE VALUE TO 'current' TO HIGHLIGHT CURRENT SECTION LINK IN NAV*/
+        currentClass: 'not-active', /* CHANGE THE VALUE TO 'current' TO HIGHLIGHT CURRENT SECTION LINK IN NAV*/
         scrollSpeed: 750,
         scrollThreshold: 0.5,
         filter: ':not(.external)'
