@@ -450,8 +450,13 @@ strong,
    2.4 SECTION HEADERS
 -----------------------------------------*/
 .section-header {
-	margin-top: 70px;
-	margin-bottom: 130px;
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+
+.section-header h2 {
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 .sub-heading {
