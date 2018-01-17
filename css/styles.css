@@ -755,14 +755,14 @@ strong,
    3.5.1 SECTION: DEMOREEL 1
 -----------------------------------------*/
 .demoreel-1 {
-	background: url(../images/background-images/demoreel-1.jpg) no-repeat center top;
+	background: url(../images/background-images/demoreel-1.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 .demoreel-1 .overlay-layer-2 {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 250px;
+	padding-bottom: 250px;
 }
 
 /*---------------------------------------
