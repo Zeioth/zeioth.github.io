@@ -201,17 +201,18 @@ li {
 h1,
 h2 {
 	font-family: 'Cabin', Helvetica Neue, Sans-serif;
-	font-weight: 300;
 }
 
 h1 {
 	font-size: 2.75rem;
 	line-height: 5rem;
+	font-weight: 300;
 }
 
 h2 {
 	font-size: 2.0rem;
 	line-height: 3.125rem;
+	font-weight: 300;
 }
 
 h2 strong {
@@ -449,13 +450,8 @@ strong,
    2.4 SECTION HEADERS
 -----------------------------------------*/
 .section-header {
-	margin-top: 90px;
-	margin-bottom: 60px;
-}
-
-.section-header h2 {
-	margin-bottom: 20px;
-	margin-top: 10px;
+	margin-top: 70px;
+	margin-bottom: 130px;
 }
 
 .sub-heading {
@@ -769,9 +765,7 @@ strong,
    3.5.2 SECTION: DEMOREEL 2
 -----------------------------------------*/
 .demoreel-2 {
-	background: url(../images/background-images/demoreel-2.jpg) no-repeat center top;
-	-webkit-background-size: cover;
-	background-size: cover;
+
 }
 
 .demoreel-2 .overlay-layer-2 {

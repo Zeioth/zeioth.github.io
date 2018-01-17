@@ -47,15 +47,15 @@ $(window).resize(function() {
     /*---------------------------------------*/
 	/*	VIDEO BACKGROUND
 	/*---------------------------------------*/
-    $('body').videoBG({
-        position:"fixed",
-		zIndex:0,
-		mp4:'video/video.mp4',
-		ogv:'video/video.ogv',
-		webm:'video/video.webm',
-		poster:'video/video.jpg',
-		opacity:1,
-		fullscreen:true
+    $('.demoreel-2').videoBG({
+        position: "relative",
+    		zIndex:0,
+    		mp4:'video/video.mp4',
+    		ogv:'video/video.ogv',
+    		webm:'video/video.webm',
+    		poster:'video/video.jpg',
+    		opacity:1,
+    		fullscreen:true
 	});
 
     /*---------------------------------------*/
