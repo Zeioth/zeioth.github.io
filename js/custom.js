@@ -44,6 +44,19 @@ $(window).resize(function() {
 
     "use strict";
 
+    /*---------------------------------------*/
+	/*	VIDEO BACKGROUND
+	/*---------------------------------------*/
+    $('body').videoBG({
+        position:"fixed",
+		zIndex:0,
+		mp4:'video/video.mp4',
+		ogv:'video/video.ogv',
+		webm:'video/video.webm',
+		poster:'video/video.jpg',
+		opacity:1,
+		fullscreen:true
+	});
 
     /*---------------------------------------*/
     /*	SMOOTH SCROLL FRO INTERNAL #HASH LINKS
